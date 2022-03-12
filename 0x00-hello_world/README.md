@@ -1,4 +1,5 @@
 script to write preprocessor
-script to compile 
+script to compiler 
 script to assemble
 script to read
+script to puts
