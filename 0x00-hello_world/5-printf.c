@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - to print the statement with proper grammar, but the outcome is a piece of art,
- * 
- * Return: Always 0 (success) , otherwise 
+ * main - main block to print a string using printf function
+ * but the outcome is a piece of art,
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
