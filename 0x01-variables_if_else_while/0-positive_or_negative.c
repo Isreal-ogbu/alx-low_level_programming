@@ -1,23 +1,25 @@
-#include<stdio.h>
-
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
- * main : to test random variable of n if positive or negative
- * 
- * return : 0 if zero, positive if positive, return negative if negative.
+ * main - main block
+ * Description: Get a random number and print the number
+ * and if it is positive, negative, or zero
+ * Return: 0
  */
-
 int main(void)
 {
-    int n;
-    scanf("%d", &n);
-    if (n < 0) {
-        printf("%d  is negative\n", n);
-    }
-    else if ( n == 0) {
-        printf("%d  is zero\n", n);
-    }
-    else {
-        printf("%d is positive\n", n);
-    }
-    return 0;
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
+		printf("%i is positive\n", n);
+	else if (n < 0)
+		printf("%i is negative\n", n);
+	else
+		printf("%i is zero\n", n);
+
+	return (0);
 }
