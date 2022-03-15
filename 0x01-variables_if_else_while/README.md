@@ -5,3 +5,4 @@ scripts to print upper and lower case
 scripts to prints alphabet in lower case except "e" and "q"
 scripts to print number in base 10
 scripts to prints number in base 10 using putchar
+script to print alphabet in reverse :  z-a.
