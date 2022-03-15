@@ -6,3 +6,4 @@ scripts to prints alphabet in lower case except "e" and "q"
 scripts to print number in base 10
 scripts to prints number in base 10 using putchar
 script to print alphabet in reverse :  z-a.
+scripts to print number in base16 (hexadecimal) followed by letters a-f.
