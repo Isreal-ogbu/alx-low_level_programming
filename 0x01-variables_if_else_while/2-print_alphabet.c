@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description : To print lowwer case letter
+ * Description : use "putchar' function to print alphabet in lower case
  * return: 0
  */
 int main(void)
 {
         char c = 'a';
+
         while (c <= 'z')
         {
                 putchar (c);
@@ -17,3 +18,4 @@ int main(void)
 
         return (0);
 }
+
