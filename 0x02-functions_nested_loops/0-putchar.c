@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - main function
- * Description: To print a statement _putchar.
+ * main - main block
+ * Description: Write a program that prints `_putchar` followed by a new line.
  * Return: 0
  * 
  */
