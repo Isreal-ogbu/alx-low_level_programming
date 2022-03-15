@@ -7,3 +7,4 @@ scripts to print number in base 10
 scripts to prints number in base 10 using putchar
 script to print alphabet in reverse :  z-a.
 scripts to print number in base16 (hexadecimal) followed by letters a-f.
+scripts to print numbers from 0-9 ith a comma (,)
