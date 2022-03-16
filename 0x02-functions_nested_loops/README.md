@@ -8,3 +8,4 @@ scripts to compute absolute value of an integer
 scripts to printing last digit of a number
 scripts to printing minutes in time
 scripts to print 9x table starting from 0
+scripts to add to integer and return the output
