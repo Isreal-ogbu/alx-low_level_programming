@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- * _strlen - length of a string
- * @s: input char
- * Return: length of a string
+ * swap_int - main
+ * @a: pointer
+ * @b: pointer
  */
 
-int _strlen(char *s)
+void swap_int(int *a, int *b)
 {
-	int l = 0;
+	int swap;
 
-	while (*s != '\0')
-	{
-		s++;
-		l++;
-	}
-	return (l);
+	swap = *a;
+	*a = *b;
+	*b = swap;
 }
