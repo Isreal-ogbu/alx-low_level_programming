@@ -7,7 +7,7 @@
   * Return: If an error occurs - -1.
   * Otherwise - 1. 
  */
-int get_endianness(void);
+int get_endianness(void)
 {
   unsigned int x = 0x76543210;
   char *c = (char*) &x;
