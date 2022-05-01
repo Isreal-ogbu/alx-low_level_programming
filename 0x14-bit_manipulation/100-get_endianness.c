@@ -9,18 +9,10 @@
  */
 int get_endianness(void)
 {
-    int x = 0x76543210;
-    char *c = (char*) &x;
-    
 
-    if (*c == 0x10)
-    {
-        printf ("little endian\n");
-    }
-    else
-    {
-        printf ("big endian. \n");
-    }
-    
-    return 0;
+    int x = 1;
+
+    char *y = (char*)&x;
+
+    printf("%c\n",*y+48);
 }
