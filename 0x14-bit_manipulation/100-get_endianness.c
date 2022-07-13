@@ -1,18 +1,15 @@
 #include "main.h"
 
-/** 
-  * Write a C program to find out if the underlying
-  * @n: decimal number
-  * @index: index of the bit
-  * Return: If an error occurs - -1.
-  * Otherwise - 1. 
+/**
+ * get_endianness - checks the endianness
+ * Return: 0 if big endian, 1 if little endian
  */
 int get_endianness(void)
 {
+	unsigned int x = 1;
+	char *c;
 
-    int x = 1;
+	c = (char *)&x;
 
-    char *y = (char*)&x;
-
-    printf("%c\n",*y+48);
+	return ((int)*c);
 }
